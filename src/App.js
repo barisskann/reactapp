@@ -55,7 +55,7 @@ function App() {
   fonk();
   let render = data.map((item) => {
     return (
-      <div className="block-item" key={item.id}>
+      <div className="div-item" key={item.id}>
         <button
           className="btn "
           disabled={item.disabled}
@@ -71,9 +71,9 @@ function App() {
 
   return (
     <div className="container">
-      <div className="block">{render}</div>
-      <div className="container-btn">
-        <button className="btn" onClick={handleRandom}>
+      <div className="div">{render}</div>
+      <div className="mix-container">
+        <button className="mix" onClick={handleRandom}>
           Karıştır
         </button>
       </div>
