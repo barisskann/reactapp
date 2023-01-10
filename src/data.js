@@ -2,10 +2,12 @@ let data = [
   {
     id: 1,
     disabled: false,
+    correct: false,
   },
   {
     id: 2,
     disabled: false,
+    correct: false,
   },
   {
     id: 3,
@@ -18,6 +20,7 @@ let data = [
   {
     id: 5,
     disabled: false,
+    chech:false
   },
   {
     id: 6,
@@ -34,6 +37,7 @@ let data = [
   {
     id: 9,
     disabled: false,
+    correct: false,
   },
 ];
 
